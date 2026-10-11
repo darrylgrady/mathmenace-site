@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MathMenace: support</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Support and privacy information for MathMenace, a word search for numbers.">
+<style>
+  :root { color-scheme: light dark; --bg: #eef2f7; --surface: #ffffff; --fg: #14202e; --muted: #55657a; --line: #cdd6e1; --accent: #4f46e5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e141b; --surface: #16202b; --fg: #e8eef5; --muted: #93a3b5; --line: #2a3846; --accent: #818cf8; }
+  }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; margin: 0; padding-inline: 16px; }
+  main { max-width: 42rem; margin: 0 auto; padding-block: 40px 64px; }
+  .eyebrow { margin: 0; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
+  h1 { margin: 8px 0 4px; font-size: 2rem; line-height: 1.15; }
+  .lede { margin: 0 0 28px; color: var(--muted); }
+  h2 { margin: 32px 0 8px; font-size: 1.05rem; line-height: 1.3; }
+  p, li { max-width: 65ch; }
+  ul { padding-left: 1.2em; }
+  a { color: var(--accent); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; padding: 16px 18px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Number puzzle game</p>
+  <h1>MathMenace</h1>
+  <p class="lede">A word search for numbers: find the equations hidden in the grid.</p>
+
+  <h2>How to play</h2>
+  <ul>
+    <li>Pick a grid size (4 × 4 up to 12 × 12) and start.</li>
+    <li>Equations are hidden across, down and diagonally, forwards or backwards. Only the numbers show: the +, −, × and ÷ are left out, so 3, 4, 12 is 3 × 4 = 12.</li>
+    <li>Drag across the numbers of an equation to find it. Found tiles turn gray. Some equations have four numbers.</li>
+    <li><strong>Hint</strong> lights the first two numbers of an equation you haven't found. <strong>Give up</strong> shows every equation that's left.</li>
+    <li>Your game is saved as you play, so you can leave and pick it up again.</li>
+  </ul>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p>Found a bug, or have a question or idea? Please open an issue:
+      <a href="https://github.com/darrylgrady/mathmenace-site/issues">github.com/darrylgrady/mathmenace-site/issues</a>.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>MathMenace collects nothing and shares nothing. Read the <a href="privacy/">privacy policy</a>.</p>
+</main>
+</body>
+</html>
